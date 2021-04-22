@@ -3,7 +3,7 @@
 
 
 
-Download address on official website: https://www.seacms.net\n
+Download address on official website: https://www.seacms.net
 Through code audit, the vulnerability points are /kfcst7/admin_ip.php
 Note: after the program is installed, the background directory will be renamed randomly. Here it is changed to kfcst7
 
