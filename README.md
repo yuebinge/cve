@@ -19,11 +19,11 @@ admin_ ip.php Write the input directly to the ip.php , without filtering, result
 Enter in the input box      127.0.0.1";phpinfo();//
 ![image](https://github.com/yuebinge/cve/blob/main/img/43.png)
 
-Confirm, submit
+Payload has been written. Click OK again and the code executes
 
 ![image](https://github.com/yuebinge/cve/blob/main/img/44.png)
 
-Again, the statement phpinfo() is executed
+the statement phpinfo() is executed
 
 ![image](https://github.com/yuebinge/cve/blob/main/img/45.png)
 So there is a code execution vulnerability.
