@@ -11,16 +11,16 @@ Note: after the program is installed, the background directory will be renamed r
 
 admin_ ip.php Write the input directly to the ip.php , without filtering, resulting in arbitrary code execution:
 
-![image](https://github.com/yuebinge/cve/upload/main/img/42.png)
+![image](https://github.com/yuebinge/cve/blob/main/img/42.png)
 
 Enter in the input box      127.0.0.1";phpinfo();//
-![image](https://github.com/yuebinge/cve/upload/main/img/43.png)
+![image](https://github.com/yuebinge/cve/blob/main/img/43.png)
 
 Confirm, submit
 
-![image](https://github.com/yuebinge/cve/upload/main/img/44.png)
+![image](https://github.com/yuebinge/cve/blob/main/img/44.png)
 
 Again, the statement phpinfo() is executed
 
-![image](https://github.com/yuebinge/cve/upload/main/img/45.png)
+![image](https://github.com/yuebinge/cve/blob/main/img/45.png)
 So there is a code execution vulnerability.
